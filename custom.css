@@ -1,0 +1,47 @@
+#carousel {
+	width:1000px;
+	height:1000px;	
+	margin:0 auto;
+}
+
+#slides {
+	overflow:hidden;
+	/* fix ie overflow issue */
+	position:relative;
+	width:800px;
+	height:800px;
+	border:1px solid #ccc;
+}
+
+/* remove the list styles, width : item width * total items */	
+#slides ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;	
+	width:800px;			
+}
+
+/* width of the item, in this case I put 250x250x gif */
+#slides li {
+	width:800px;
+	height:800px;	
+	float:left;
+}
+
+#slides li img {
+	padding:5px;
+	width: 800px;
+	height: 800px;
+}
+
+/* Styling for prev and next buttons */
+
+#buttons{
+	margin-left: 43%;
+	margin-top: -174px;
+}
+
+.clear {clear:both}
